@@ -8,8 +8,7 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 }
 /*General*/
 body {
-    background: #ffffff url(http://philcurtis.me/images/paper_3_@2X.png) top left repeat;
-    /*color image position repeat*/
+    background: #ffffff url(http://philcurtis.me/images/paper_3_@2X.png) top left repeat;/*color image position repeat*/
     margin: 25px 10px 25px 10px;
     padding: 2px 2px 2px 2px;
     font-family: helvetica, Arial, "Times New Roman", sans-serif;
@@ -20,7 +19,6 @@ body {
     color: red;
     font-weight: bold;
     text-align: left;
-
 }
 ul {
     list-style: none;
@@ -63,24 +61,13 @@ visited {
         letter-spacing: 2px;
         line-height: 175%;
     }
-    /*background-image:url(images/Cartoon_Suit_01_Sq.jpg);
-    background-size: 15% 15%;*/
     .mypic {
         border: 0px solid #5f5f5f;
         padding: 10px;
         width: 10%;
         height: 10%;
         float: right;
-        /*position: absolute;
-        bottom: 5px;
-        top: 5px;
-        right: 5px;*/
     }
-        /*position: relative;
-    	top: auto;
-    	right: 15px;
-    	bottom: auto;*/
-
     h1 {
     padding-top: 25px;
     color: #000000;

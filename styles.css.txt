@@ -1,0 +1,269 @@
+/*@import "heading.css";
+@import "paragraph.css";
+
+CSS Code Syntax
+selector {
+  property: value;
+}
+
+* {
+    border: 1 dashed #0000FF;
+}
+
+{
+  border: 2 solid black; (border around all HTML elements)
+}
+*/
+
+* {
+	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+	background-color: #EFDFBB;
+	
+	/*  #EFDFBB
+	Dutch White
+	#228B22Lime Green
+	#014421
+	#FDF5E6
+	#E9FFDB
+	#FFF8DC
+	#dcdcdc
+	#a9a9a9
+	*/
+}
+div {	
+}
+.body {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2x;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	border-left:50px;
+	border-right: 50px;
+	border-top: 50px;
+	border-bottom: 50px;
+	border-radius: 5;
+	border-color: #000000;
+	border-style:4px solid #556b2f
+ 	color: #000000;
+ 	 font-size: 18;
+ 	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+ 	 text-align: left;
+	float: left;
+	float: right;
+	word-spacing: 10px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-indent: 5px;
+}
+#name {
+ 	font-size: 50px;
+	text-align: center;
+	font-stretch: 400%;
+	text-indent: 0px;
+	font-weight: bold;
+	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+	Color: #000000
+}
+.intro {
+	font-size: 100;
+	text-align: center;
+	line-height: 150%;
+	
+}
+.summary {
+	font-size: 30;
+	text-align: left;
+	width: 80;
+}
+.h2 {
+  	font-size: 24px;
+	text-decoration: underline;
+	text-indent: 30px;
+	font-weight: bold;
+}
+.h3 {
+  	font-size: 16;
+	text-decoration: none;
+	text-indent: 40px;
+	font-weight: bold;
+}
+.h4 {
+  	font-size: 12;
+	text-decoration: none;
+	text-indent: 50px;
+	font-weight: bold;
+}
+h5 {
+  	font-size: 24px;
+	text-decoration: underline;
+	text-indent: 30px;
+	font-weight: bold;	
+}
+						/* Tables
+http://www.w3schools.com/css/css_table.asp
+colspan="3";padding:5;
+border-left:1 dark grey;
+*/
+table {
+	 border-collapse: collapse;
+	border: 1px solid #000000;
+	margin-right: auto;
+	margin-left: auto;
+    padding:0px;
+    text-align: center;
+}
+tr:hover {
+	background-color: #C2B280
+}
+th,td {
+    border: .5px solid #000000;
+    padding:15px
+}
+th {
+  text-align:left;
+	background-color: #F5DEB3;
+    color: #000000;
+}
+td {
+    height: 75;
+    border:5 solid #000000;
+}
+#table {
+	
+	background: :00308F url("http://i228.photobucket.com/albums/ee194/pc_sailor/Engineering/Engineer-01.jpg") no-repeat;
+}
+/*						Images
+My Code:
+.img {
+  	display: inline; /*default code
+	padding: 4px;
+	margin-right: 20;
+	margin-top: 100:;
+    	height: 223;
+   	width: 192;
+   	border: 1 solid #000000;
+	float:right;
+--
+Rotation Code #1:
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+}
+@-webkit-keyframes rotation {
+    0%, 40%   {-webkit-transform: rotate(0deg);}
+    60%, 100% {-webkit-transform: rotate(90deg);}
+}
+@keyframes rotation {
+    0%, 40% { transform: rotate(0deg); }
+    60%, 100% { transform: rotate(90deg); }
+}
+.wrapper a:last-child div {
+  -webkit-animation: rotation 6s infinite linear;
+  animation: rotation 6s infinite linear;
+}
+Rotation Code #2:
+   /* Rotate div
+    -ms-transform: rotate(7deg); /* IE 9
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera
+    transform: rotate(7deg);
+*/
+#image-div {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    border: 2px solid #000000;
+    width: 192px;
+    height: 223px;
+    margin: 60px 0 0 60px;
+}
+#image-footer {
+    position: absolute;
+    top: 2400px;
+    right: 100px;
+	left: 800px;
+	bottom: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #EFDFBB;
+    margin: 60px 0 0 60px;
+}
+a {					/*Hyper links*/
+    color:#000080;
+    text-decoration: underline;
+}
+a:visited {
+	color:purple
+	;
+}
+/*					Misc
+*/
+sum {
+ text-align: left;
+  font-size: 100;
+}
+span {
+color:#000000;
+}
+span#PhilCurtis {
+	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+	font-size: 40px;
+	color: #000000
+		text-indent: 0px;
+	text-align: center;
+	text-indent: 0px;
+	font-stretch: 400%;
+}
+a:hover {
+	color: #0077BE; /* or #48BF91,#0077BE */
+	font-weight: bold;
+}
+/*--Video Ed--*/
+.sitelink {
+	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+}
+#maintext {
+	font-family: "Georgia", "Book Antiqua", "Paltino Linotype", "sans-serif", serif;
+}
+
+
+/*
+Unit Types:
+Pixels	px	pixel on device
+Points	pt	Print-72pt=1"
+EMS	em	1 em = current font
+Percent	%	current font=100%
+-
+pseudo-class selector Syntax
+selector:pseudo-class_selector {
+    property: value;
+}
+pseudo-class selectors:
+for links:
+a:link: unvisited link.
+a:visited: visited link.
+a:hover: hovering your mouse 
+-for First Child:
+p:first-child {
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+    color: #008B45;
+}
+a:visited {
+    color: #EE9A00;
+}
+p:first-child {
+  color: red;
+  text-decoration: bold;
+}
+*/

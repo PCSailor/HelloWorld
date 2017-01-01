@@ -4,7 +4,7 @@ On GitHub, navigate to your GitHub Pages site's repository.
 Repository settings buttonUnder your repository name, click  Settings.
 select-gh-pages-or-master-as-sourceUse the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
 click-save-next-to-source-selectionClick Save.<br>
--------------------------------------------------------------------------------------------------------------------><br>
+<br>
 <b>Publishing your GitHub Pages site from a /docs folder on your master branch</b><br>
 To publish your site's source files from a /docs folder on your master branch, you must have a master branch and your repository must:
 have a /docs folder in the root of the repository
@@ -18,3 +18,5 @@ select-master-branch-docs-folder-as-sourceUse the Select source drop-down menu t
 Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
 click-save-next-to-master-branch-docs-folder-source-selectionClick Save.
 Added Publish info to ReadMe file
+https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3

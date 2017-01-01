@@ -17,6 +17,6 @@ Repository settings buttonUnder your repository name, click  Settings.
 select-master-branch-docs-folder-as-sourceUse the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
 Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
 click-save-next-to-master-branch-docs-folder-source-selectionClick Save.
-Added Publish info to ReadMe file
-https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
-https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3
+Added Publish info to ReadMe file<br>
+https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/<br>
+https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3<br>
